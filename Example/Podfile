@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LeezeItUI_Example' do
+  pod 'LeezeItUI', :path => '../'
+
+  target 'LeezeItUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
