@@ -1,0 +1,6 @@
+framework module LeezeItUI {
+  umbrella header "LeezeItUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

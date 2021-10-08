@@ -1,0 +1,16 @@
+PODS:
+  - LeezeItUI (0.1.0)
+
+DEPENDENCIES:
+  - LeezeItUI (from `../`)
+
+EXTERNAL SOURCES:
+  LeezeItUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LeezeItUI: fbcd66c06bf1420f03227975145c144fc46bb928
+
+PODFILE CHECKSUM: 0993c3b97667ee9344ddfa91a6492b0a4faf1adb
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		159F18B96ED5E69F37499CFF664EC617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		263553F944DCFCC879BC96FA10723A08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C9330E9073311D2E1DC8D4C2964DB51 /* Pods-LeezeItUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D36DABC45853925F051CA95BA9FA6DB5 /* Pods-LeezeItUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EF5C6041C1DF0B8784FBE3DFE57BDA5 /* Pods-LeezeItUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5103360558206DBB81D92F7FED504DD9 /* Pods-LeezeItUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F9F5195A6B67E559A26E056E8CE815 /* LeezeItUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB07EE00096FBEBD6A650BD68FB0BEF /* LeezeItUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39C1A7302710EA03003E7C8F /* UIColor+LeezeIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C1A72E2710EA03003E7C8F /* UIColor+LeezeIt.swift */; };
+		39C1A7312710EA03003E7C8F /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C1A72F2710EA03003E7C8F /* UITextField.swift */; };
+		40C5C7F9A9360A58FDC2B3573609A0B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5C3271935AD664898E336AF3C4BF992D /* LeezeItUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5B9712325ABBA7E7FEB78798BC1E15 /* LeezeItUI-dummy.m */; };
+		8264380EF5B914451E6D78FABFE41064 /* Pods-LeezeItUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1690159B02D52B0407730A95DD5BB034 /* Pods-LeezeItUI_Tests-dummy.m */; };
+		9B7B207C14F7789DDD8D2584DAC31C3B /* Pods-LeezeItUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD396AD4BB0908DACDE6C026EE046FE /* Pods-LeezeItUI_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99B95CE3C5D14B5BBE4728B2A1CF4245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5780CD42D3B6A13143E616A643493BA8;
+			remoteInfo = "Pods-LeezeItUI_Example";
+		};
+		ACA7D624866E155E46770D7B96812C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AC812F3C0E789AE9EC7B2BF80A93C28;
+			remoteInfo = LeezeItUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014C0AEB08948152E875CA1173CB23A9 /* LeezeItUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LeezeItUI.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		06A718402BA5C1C1821654632F834ABD /* LeezeItUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LeezeItUI.modulemap; sourceTree = "<group>"; };
+		092C7B033ABC43CEC637652964569F9A /* Pods-LeezeItUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeezeItUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0A10075F116D36EECEB7EC2F9710FDBB /* Pods-LeezeItUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeezeItUI_Example-Info.plist"; sourceTree = "<group>"; };
+		0B5B20933A749AE450E8BEF1A1CA7934 /* Pods-LeezeItUI_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LeezeItUI_Example"; path = Pods_LeezeItUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EBD411563373ABB69994D2A543569EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0FAF5BA37F9F30B927A31CC5E5EEC91C /* Pods-LeezeItUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeezeItUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1690159B02D52B0407730A95DD5BB034 /* Pods-LeezeItUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeezeItUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		1729751A82C268CCFF28412325E91F20 /* LeezeItUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeezeItUI.release.xcconfig; sourceTree = "<group>"; };
+		2128292A291359BEA9DD33CB5786DE52 /* Pods-LeezeItUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeezeItUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2EFB2ABD8F7CB0590CE76E3038EC0F72 /* LeezeItUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeezeItUI.debug.xcconfig; sourceTree = "<group>"; };
+		39C1A72E2710EA03003E7C8F /* UIColor+LeezeIt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+LeezeIt.swift"; sourceTree = "<group>"; };
+		39C1A72F2710EA03003E7C8F /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		3F949238ADA9E277EEF098828949A94E /* Pods-LeezeItUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeezeItUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3FB07EE00096FBEBD6A650BD68FB0BEF /* LeezeItUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeezeItUI-umbrella.h"; sourceTree = "<group>"; };
+		5103360558206DBB81D92F7FED504DD9 /* Pods-LeezeItUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeezeItUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E8867033A3AEC68426B424D26CD7895 /* LeezeItUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LeezeItUI-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73737FC39CC6156BD911B9E5D3703A84 /* Pods-LeezeItUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeezeItUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		76C68D33BADE5415B9EDECB5273F3141 /* Pods-LeezeItUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeezeItUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96017C8FA7914AC2A739ED4AB53FF117 /* Pods-LeezeItUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeezeItUI_Tests-Info.plist"; sourceTree = "<group>"; };
+		9A20A209091CE0C8CEEEC8D89965C761 /* Pods-LeezeItUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeezeItUI_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD396AD4BB0908DACDE6C026EE046FE /* Pods-LeezeItUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeezeItUI_Example-dummy.m"; sourceTree = "<group>"; };
+		A76387DCEBF1C9D20F2EF429DE4A089E /* Pods-LeezeItUI_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LeezeItUI_Tests"; path = Pods_LeezeItUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9233D2ADF45B26B5821C81EA41386AA /* Pods-LeezeItUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeezeItUI_Example.modulemap"; sourceTree = "<group>"; };
+		BAFB2347A374AD22C0470710777C9C13 /* LeezeItUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeezeItUI-prefix.pch"; sourceTree = "<group>"; };
+		CE4AE99980FD0A3C3B3721B4A6B123EB /* Pods-LeezeItUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeezeItUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D103AA625628C53C4BDC67B60C954A2A /* Pods-LeezeItUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeezeItUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D36DABC45853925F051CA95BA9FA6DB5 /* Pods-LeezeItUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeezeItUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DD5B9712325ABBA7E7FEB78798BC1E15 /* LeezeItUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LeezeItUI-dummy.m"; sourceTree = "<group>"; };
+		E4EE927A1F1200683346B50ED6C1FF7F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EFE050A43E90606CDC2895D49E23B724 /* Pods-LeezeItUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeezeItUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA990B33028640B7D006A53146D2645C /* LeezeItUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LeezeItUI; path = LeezeItUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93D03D9B09322BFC0D33CE0F9A021FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263553F944DCFCC879BC96FA10723A08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96E97C44D5A0190FCA78C38378AD6E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159F18B96ED5E69F37499CFF664EC617 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6929DB1419A2E47C5EA615280BC4EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C5C7F9A9360A58FDC2B3573609A0B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31555E3ED86936B7105EE3FCA3B43998 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				39C1A72D2710EA03003E7C8F /* Classes */,
+				014C0AEB08948152E875CA1173CB23A9 /* LeezeItUI.podspec */,
+				0EBD411563373ABB69994D2A543569EC /* LICENSE */,
+				E4EE927A1F1200683346B50ED6C1FF7F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		39C1A72D2710EA03003E7C8F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				39C1A72E2710EA03003E7C8F /* UIColor+LeezeIt.swift */,
+				39C1A72F2710EA03003E7C8F /* UITextField.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3BFCB75375E790DD13274B8E84C9C67C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DDD381A2B0F6EF001D6E84EAC638D25 /* Pods-LeezeItUI_Example */,
+				C1D2843D70BF3A1CF50DED375DB027C4 /* Pods-LeezeItUI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4DDD381A2B0F6EF001D6E84EAC638D25 /* Pods-LeezeItUI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A9233D2ADF45B26B5821C81EA41386AA /* Pods-LeezeItUI_Example.modulemap */,
+				2128292A291359BEA9DD33CB5786DE52 /* Pods-LeezeItUI_Example-acknowledgements.markdown */,
+				0FAF5BA37F9F30B927A31CC5E5EEC91C /* Pods-LeezeItUI_Example-acknowledgements.plist */,
+				9FD396AD4BB0908DACDE6C026EE046FE /* Pods-LeezeItUI_Example-dummy.m */,
+				CE4AE99980FD0A3C3B3721B4A6B123EB /* Pods-LeezeItUI_Example-frameworks.sh */,
+				0A10075F116D36EECEB7EC2F9710FDBB /* Pods-LeezeItUI_Example-Info.plist */,
+				5103360558206DBB81D92F7FED504DD9 /* Pods-LeezeItUI_Example-umbrella.h */,
+				092C7B033ABC43CEC637652964569F9A /* Pods-LeezeItUI_Example.debug.xcconfig */,
+				D103AA625628C53C4BDC67B60C954A2A /* Pods-LeezeItUI_Example.release.xcconfig */,
+			);
+			name = "Pods-LeezeItUI_Example";
+			path = "Target Support Files/Pods-LeezeItUI_Example";
+			sourceTree = "<group>";
+		};
+		4FCD6E1F4EBFFDDDDCDA51DF847100FA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8E1DBFA91062A8EC903EFB0543A61E6 /* LeezeItUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B8E1DBFA91062A8EC903EFB0543A61E6 /* LeezeItUI */ = {
+			isa = PBXGroup;
+			children = (
+				31555E3ED86936B7105EE3FCA3B43998 /* Pod */,
+				F9DCCB3ED6CD3AAA21685671670A7FD5 /* Support Files */,
+			);
+			name = LeezeItUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C1D2843D70BF3A1CF50DED375DB027C4 /* Pods-LeezeItUI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9A20A209091CE0C8CEEEC8D89965C761 /* Pods-LeezeItUI_Tests.modulemap */,
+				76C68D33BADE5415B9EDECB5273F3141 /* Pods-LeezeItUI_Tests-acknowledgements.markdown */,
+				73737FC39CC6156BD911B9E5D3703A84 /* Pods-LeezeItUI_Tests-acknowledgements.plist */,
+				1690159B02D52B0407730A95DD5BB034 /* Pods-LeezeItUI_Tests-dummy.m */,
+				96017C8FA7914AC2A739ED4AB53FF117 /* Pods-LeezeItUI_Tests-Info.plist */,
+				D36DABC45853925F051CA95BA9FA6DB5 /* Pods-LeezeItUI_Tests-umbrella.h */,
+				EFE050A43E90606CDC2895D49E23B724 /* Pods-LeezeItUI_Tests.debug.xcconfig */,
+				3F949238ADA9E277EEF098828949A94E /* Pods-LeezeItUI_Tests.release.xcconfig */,
+			);
+			name = "Pods-LeezeItUI_Tests";
+			path = "Target Support Files/Pods-LeezeItUI_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4FCD6E1F4EBFFDDDDCDA51DF847100FA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D037833699FDB29DBD744D8B04ACB454 /* Products */,
+				3BFCB75375E790DD13274B8E84C9C67C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D037833699FDB29DBD744D8B04ACB454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA990B33028640B7D006A53146D2645C /* LeezeItUI */,
+				0B5B20933A749AE450E8BEF1A1CA7934 /* Pods-LeezeItUI_Example */,
+				A76387DCEBF1C9D20F2EF429DE4A089E /* Pods-LeezeItUI_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9DCCB3ED6CD3AAA21685671670A7FD5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06A718402BA5C1C1821654632F834ABD /* LeezeItUI.modulemap */,
+				DD5B9712325ABBA7E7FEB78798BC1E15 /* LeezeItUI-dummy.m */,
+				6E8867033A3AEC68426B424D26CD7895 /* LeezeItUI-Info.plist */,
+				BAFB2347A374AD22C0470710777C9C13 /* LeezeItUI-prefix.pch */,
+				3FB07EE00096FBEBD6A650BD68FB0BEF /* LeezeItUI-umbrella.h */,
+				2EFB2ABD8F7CB0590CE76E3038EC0F72 /* LeezeItUI.debug.xcconfig */,
+				1729751A82C268CCFF28412325E91F20 /* LeezeItUI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LeezeItUI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00B4D98A13CCDA624DD1CA67BB2ABFA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF5C6041C1DF0B8784FBE3DFE57BDA5 /* Pods-LeezeItUI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790E654DD2D064CDBCFCAD395802659F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9330E9073311D2E1DC8D4C2964DB51 /* Pods-LeezeItUI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45488D502922ECFAE01B348A3FEAE86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F9F5195A6B67E559A26E056E8CE815 /* LeezeItUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5780CD42D3B6A13143E616A643493BA8 /* Pods-LeezeItUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6C1A91CBC71F9FFA496CA86B284556 /* Build configuration list for PBXNativeTarget "Pods-LeezeItUI_Example" */;
+			buildPhases = (
+				00B4D98A13CCDA624DD1CA67BB2ABFA2 /* Headers */,
+				642001EF68D0102BB7F1175D4BB53A8B /* Sources */,
+				FF6929DB1419A2E47C5EA615280BC4EC /* Frameworks */,
+				1A41CBC9226C8AB09B3CF3B83A500C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6F6C54AA337653128AD9B9CDB3FA59 /* PBXTargetDependency */,
+			);
+			name = "Pods-LeezeItUI_Example";
+			productName = Pods_LeezeItUI_Example;
+			productReference = 0B5B20933A749AE450E8BEF1A1CA7934 /* Pods-LeezeItUI_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AC812F3C0E789AE9EC7B2BF80A93C28 /* LeezeItUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7743A882C323159F26C84D25F4084290 /* Build configuration list for PBXNativeTarget "LeezeItUI" */;
+			buildPhases = (
+				C45488D502922ECFAE01B348A3FEAE86 /* Headers */,
+				329420527D83437FAE917B0FA0761AC1 /* Sources */,
+				E96E97C44D5A0190FCA78C38378AD6E2 /* Frameworks */,
+				2A41B964A1EF6EDB89C680DBEE9C92D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeezeItUI;
+			productName = LeezeItUI;
+			productReference = FA990B33028640B7D006A53146D2645C /* LeezeItUI */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C9DDBEA46FD565AF98F46BE41E8EF66 /* Pods-LeezeItUI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7198DAF7883CE81BE57005F07C730A /* Build configuration list for PBXNativeTarget "Pods-LeezeItUI_Tests" */;
+			buildPhases = (
+				790E654DD2D064CDBCFCAD395802659F /* Headers */,
+				4B3F25313A078C1D3268757C01ACAFE0 /* Sources */,
+				93D03D9B09322BFC0D33CE0F9A021FC5 /* Frameworks */,
+				C7360D277E81BF9EBF0D603CD0ED9828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0614A5556C3D96FF2B91DD741309ACF /* PBXTargetDependency */,
+			);
+			name = "Pods-LeezeItUI_Tests";
+			productName = Pods_LeezeItUI_Tests;
+			productReference = A76387DCEBF1C9D20F2EF429DE4A089E /* Pods-LeezeItUI_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D037833699FDB29DBD744D8B04ACB454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AC812F3C0E789AE9EC7B2BF80A93C28 /* LeezeItUI */,
+				5780CD42D3B6A13143E616A643493BA8 /* Pods-LeezeItUI_Example */,
+				7C9DDBEA46FD565AF98F46BE41E8EF66 /* Pods-LeezeItUI_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A41CBC9226C8AB09B3CF3B83A500C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A41B964A1EF6EDB89C680DBEE9C92D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7360D277E81BF9EBF0D603CD0ED9828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329420527D83437FAE917B0FA0761AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C1A7302710EA03003E7C8F /* UIColor+LeezeIt.swift in Sources */,
+				5C3271935AD664898E336AF3C4BF992D /* LeezeItUI-dummy.m in Sources */,
+				39C1A7312710EA03003E7C8F /* UITextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3F25313A078C1D3268757C01ACAFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8264380EF5B914451E6D78FABFE41064 /* Pods-LeezeItUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642001EF68D0102BB7F1175D4BB53A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7B207C14F7789DDD8D2584DAC31C3B /* Pods-LeezeItUI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B6F6C54AA337653128AD9B9CDB3FA59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LeezeItUI;
+			target = 5AC812F3C0E789AE9EC7B2BF80A93C28 /* LeezeItUI */;
+			targetProxy = ACA7D624866E155E46770D7B96812C8D /* PBXContainerItemProxy */;
+		};
+		D0614A5556C3D96FF2B91DD741309ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LeezeItUI_Example";
+			target = 5780CD42D3B6A13143E616A643493BA8 /* Pods-LeezeItUI_Example */;
+			targetProxy = 99B95CE3C5D14B5BBE4728B2A1CF4245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E1379B4319B05399CF7BBCE1E16674B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE050A43E90606CDC2895D49E23B724 /* Pods-LeezeItUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeezeItUI_Tests/Pods-LeezeItUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeezeItUI_Tests/Pods-LeezeItUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		40ACBDF74510DC82107FBC03B5AF398C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D103AA625628C53C4BDC67B60C954A2A /* Pods-LeezeItUI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeezeItUI_Example/Pods-LeezeItUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeezeItUI_Example/Pods-LeezeItUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B03B497995663FCC4C534F224A6D8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1729751A82C268CCFF28412325E91F20 /* LeezeItUI.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LeezeItUI/LeezeItUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LeezeItUI/LeezeItUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LeezeItUI/LeezeItUI.modulemap";
+				PRODUCT_MODULE_NAME = LeezeItUI;
+				PRODUCT_NAME = LeezeItUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B2D7BD3B83D600D471293CC9830DEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFB2ABD8F7CB0590CE76E3038EC0F72 /* LeezeItUI.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LeezeItUI/LeezeItUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LeezeItUI/LeezeItUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LeezeItUI/LeezeItUI.modulemap";
+				PRODUCT_MODULE_NAME = LeezeItUI;
+				PRODUCT_NAME = LeezeItUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE07D71B33E1951229AD51C942414732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092C7B033ABC43CEC637652964569F9A /* Pods-LeezeItUI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeezeItUI_Example/Pods-LeezeItUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeezeItUI_Example/Pods-LeezeItUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7C36363757B4079C753618FC421C74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F949238ADA9E277EEF098828949A94E /* Pods-LeezeItUI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeezeItUI_Tests/Pods-LeezeItUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeezeItUI_Tests/Pods-LeezeItUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7743A882C323159F26C84D25F4084290 /* Build configuration list for PBXNativeTarget "LeezeItUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B2D7BD3B83D600D471293CC9830DEBE /* Debug */,
+				7B03B497995663FCC4C534F224A6D8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6C1A91CBC71F9FFA496CA86B284556 /* Build configuration list for PBXNativeTarget "Pods-LeezeItUI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE07D71B33E1951229AD51C942414732 /* Debug */,
+				40ACBDF74510DC82107FBC03B5AF398C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7198DAF7883CE81BE57005F07C730A /* Build configuration list for PBXNativeTarget "Pods-LeezeItUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1379B4319B05399CF7BBCE1E16674B /* Debug */,
+				B7C36363757B4079C753618FC421C74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

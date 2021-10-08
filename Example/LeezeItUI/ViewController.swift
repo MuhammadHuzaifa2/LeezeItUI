@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import LeezeItUI
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+        view.backgroundColor = .greenIconColor
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

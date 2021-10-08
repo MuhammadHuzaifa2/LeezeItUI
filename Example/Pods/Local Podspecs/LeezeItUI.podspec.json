@@ -1,0 +1,22 @@
+{
+  "name": "LeezeItUI",
+  "version": "0.1.0",
+  "summary": "A short description of LeezeItUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MuhammadHuzaifa2/LeezeItUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MuhammadHuzaifa2": "muhammadhuzaifaf99@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/MuhammadHuzaifa2/LeezeItUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LeezeItUI/Classes/**/*"
+}
